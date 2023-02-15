@@ -5,7 +5,7 @@ Some NLP Tools, see `jupyter` directory
 `pip install bj_nlp`
 
 ## Usage
-not usable right now
+not usable right now...
 
 
 ```python
