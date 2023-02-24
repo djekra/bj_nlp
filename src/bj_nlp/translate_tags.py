@@ -28,7 +28,6 @@ bj_tags = {
   'VVFIN':  ['Verb',                'VER',       True,      'V',       'V'    ],    # fragen sagen sehen   
   'VVIMP':  ['Verb',                'VER',       True,      'V',       'V'    ],       
   'VVINF':  ['Verb',                'VER',       True,      'V',       'V'    ],  
-  'PTKVZ':  ['Verb',                'VER',       False,     'V',       'V'    ],    # inne, dar, zurecht
 
   'VMFIN':  ['Modalverb',           'VER_mod',   True,      'V',       'V'    ],    # müssen sollen können
   'VMINF':  ['Modalverb',           'VER_mod',   True,      'V',       'V'    ],  
@@ -66,10 +65,12 @@ bj_tags = {
   'ART' :   ['Artikel',             'X_art',     True,      'W',       'X'    ],    # der die das ein eine     
   'PTKANT': ['Antwortpartikel',     'X_antw',    False,     'W',       'X'    ],    # ja nein bitte danke
   'PTKNEG': ['Negationspartikel',   'X_neg',     False,     'W',       'X'    ],    # nicht      
+  'PTKVZ':  ['Verbpartikel',        'X_div',     False,     'W',       'X'    ],    # inne, dar, zurecht    
   'CARD':   ['Zahl',                'X_zahl',    False,     'W',       'X'    ],    # eins zwei 3
   'ITJ':    ['Interjektion',        'X_itj',     False,     'W',       'X'    ],    # Hallo ach  
   'KOMBI':  ['Wortkombination',     'X_kombi',   False,     'W',       'X'    ],    # Dampf ablassen, Seine Heiligkeit
-  'DIV':    ['Diverses',            'X_div',     False,     'W',       'X'    ],      
+  'DIV':    ['Diverses',            'X_div',     False,     'W',       'X'    ],    
+    
 
   '$('  :   ['Satzzeichen',         'SYM',       False,     'W',       'Y'    ],    
   '$,'  :   ['Satzzeichen',         'SYM',       False,     'W',       'Y'    ],  
