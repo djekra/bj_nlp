@@ -19,6 +19,8 @@ bj_tags = {
   'PROAV':  ['Adverb',              'ADV',       False,     'W',       'A'    ],     
   'PTKA':   ['Adverb',              'ADV',       False,     'W',       'A'    ],    # zu am     
 
+  'ADJ1':   ['Adjektiv & Ptz1',     'ADJ',       True,      'A',       'A'    ],    # lachend, naheliegend, schwimmend   
+  'ADJ2':   ['Adjektiv & Ptz2',     'ADJ',       True,      'A',       'A'    ],    # verwandelt,        
   'ADJA':   ['Adjektiv',            'ADJ',       True,      'A',       'A'    ],    # gut klein ganz rosa
   'ADJD':   ['Adjektiv',            'ADJ',       True,      'A',       'A'    ], 
   'VVPP':   ['Ptz2',                'ADJ',       True,      'V',       'A'    ],    # ausprobiert   (ist wie ein Adjektiv)     
